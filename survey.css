@@ -1,0 +1,44 @@
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 400px;
+  background: white;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background: #28a745;
+  color: white;
+  border: none;
+}
+
+.rating {
+  margin-top: 5px;
+}
+
+pre {
+  background: #eee;
+  padding: 10px;
+  margin-top: 15px;
+}
